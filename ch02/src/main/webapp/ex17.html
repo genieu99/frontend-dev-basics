@@ -17,6 +17,7 @@ input {
 	display: block;
 	padding: 5px;
 	border: 2px solid #aaa;
+	outline: none;
 }
 
 input[type='password'] {
@@ -34,7 +35,7 @@ function focused(el) {
 	el.className = "focused";
 }
 
-function blured() {
+function blured(el) {
 	el.className = "";
 }
 </script>
