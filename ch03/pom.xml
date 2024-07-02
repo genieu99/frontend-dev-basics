@@ -7,4 +7,8 @@
   </parent>
   <artifactId>ch03</artifactId>
   <packaging>war</packaging>
+  
+  <build>
+	<finalName>ch03</finalName>
+  </build>
 </project>
