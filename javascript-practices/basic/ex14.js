@@ -22,7 +22,7 @@ console.log(url3);
 
 // 3. encodeURIComponent: 값만 encoding해야 하는 경우 사용(o), url 전체를 encoding 해야 하는 경우 사용(x)
 var url4 = encodeURIComponent(url);
-console.log(url4);
+console.log(url4);  // 오용 예
 
 // 4. encodeURIComponent 사용 예
 // 만들어야 할 URL: http://www.mysite.com/user?name=둘리&email=dooly@gmail.com
